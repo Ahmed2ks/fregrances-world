@@ -1,9 +1,6 @@
-/* Reset & Base */
+/* CSS Test: does this file load? */
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff;
-  color: #222;
+  background-color: yellow;
 }
 
 /* Promo Banner */
@@ -141,3 +138,4 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
