@@ -50,15 +50,18 @@ nav a:hover {
 /* Hero Image Section */
 .hero-banner {
   width: 100%;
-  height: 100vh;
+  height: 48vh;           /* Less dominant height */
   overflow: hidden;
+  position: relative;
 }
 .hero-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center -30%; /* Adjusted to zoom out */
+  object-position: center 0%;
   display: block;
+  opacity: 0.88;          /* Slight fade for a background feel */
+  transition: opacity 0.3s;
 }
 
 /* Product Section */
